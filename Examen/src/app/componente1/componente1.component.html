@@ -1,0 +1,39 @@
+
+<body style="background-color: #C9C6FF; padding-bottom: 30px; ">
+<p style="text-align: center; padding-top: 50px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 50px;">INGRESE LOS DATOS DEL BOLETO</p>
+<br>
+<div style="background-color: #C7EBFF;padding-left: 50px;padding-right: 50px; padding-bottom: 40px; padding-top: 10px;">
+    <p style="margin-left: 590px;">Ingresa el nombre</p>
+    <div style="margin-left: 590px;">
+ <input [(ngModel)]="nombre" >  
+</div>
+<br>
+<p style="margin-left: 590px;">Ingresa el apellido</p>
+<div style="margin-left: 590px;">
+<input [(ngModel)]="apellido">  
+</div> 
+<br>
+
+<p style="margin-left: 590px;">Ingresa la direccion</p>
+
+<div style="margin-left: 590px;">
+<input [(ngModel)]="direccion">  
+</div>  
+<br>
+<p style="margin-left: 590px;">Ingresa el celular</p>
+
+<div style="margin-left: 590px;">
+<input [(ngModel)]="celular">  
+</div>
+<br>
+<p style="margin-left: 590px;">Ingresa el AÑO</p>
+
+<div style="margin-left: 590px;">
+<input [(ngModel)]="ano">  
+</div>
+<div style="margin-left: 590px;">
+    <br>
+    <button (click)="navegacion()" style="margin-left:19px"> IMPRIMIR BOLETO </button> 
+    </div> 
+</div>
+</body>
